@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav{
+            background-color:rgb(51, 28, 28);
+            padding: 3px;
+            box-shadow: 1px 1px 1px ;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(99, 92, 92);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            
+        }
+        footer > p{
+            margin: 0px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+        <p>esporte politica e tecnologia</p>
+       </section>
+       <section id="noticias">
+         <article>
+                    <h2>noticia sobre Portugal</h2>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, blanditiis quasi officia ratione <br>
+                        quod sequi, atque tenetur, facilis vero quaerat repellat explicabo tempora odit voluptate <br>
+                        totam inventore quibusdam quae eos!
+                    </p>
+                    <aside>
+                        <p>arigo feito por Jeriel de Sousa</p>
+                    </aside>
+            </article>
+       </section>
+    </main>
+    <footer>
+<p>desenvolvindo pelo Eng.Jeriel Caweto</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
